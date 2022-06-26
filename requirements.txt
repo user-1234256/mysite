@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.1
+Django==4.0.5
+djangorestframework==3.13.1
+django-health-check==3.16.5
+psutil==5.9.1
