@@ -8,9 +8,6 @@ logging.basicConfig(format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%
 
 @api_view(['POST'])
 def count_words(request):
-    print(f"REQUEST: {request}")
-    print(f"type(request): {type(request)}")
-    print(f"request.data: {request.data}")
     
     if not ('sort_method' in request.data.keys()):
         request.data['sort_method'] = None
